@@ -1,10 +1,14 @@
 version: "2.4"
 
 services:
+  redis:
+    image: redis:5.0-alpine
   flask:
     build: ./server
     ports:
       - "8080:8080"
+    depends_on:
+      - redis
   react:
     build: ./client
     ports:

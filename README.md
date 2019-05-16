@@ -1,4 +1,4 @@
-# re-ask
+# redisk
 Boilerplate for a React + Flask + Redis app.
 
 Run with `docker-compose up`.
