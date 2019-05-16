@@ -1,5 +1,5 @@
 # re-ask
-Boilerplate for a React + Flask app.
+Boilerplate for a React + Flask + Redis app.
 
 Run with `docker-compose up`.
 
